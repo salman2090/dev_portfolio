@@ -21,6 +21,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -42,4 +43,17 @@ nav a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+/* header related styles */
+.header {
+  background: #fff8f3;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 150px;
+}
+.pro-pic {
+  width: 500px;
 }
